@@ -1,56 +1,106 @@
-AI Brochure Generator
-📌 Overview
+# 🚀 AI Brochure Generator
 
-AI Brochure Generator is an end-to-end Generative AI application that automates the creation of professional marketing brochures from company websites. The system integrates intelligent web scraping, Large Language Models (LLMs), Natural Language Processing (NLP), and Prompt Engineering to extract, analyze, and synthesize website content into structured, client-ready business brochures.
+An **end-to-end Generative AI application** that transforms company websites into **professional, client-ready marketing brochures** using **Large Language Models (LLMs)**, **web scraping**, and **prompt engineering**.
 
-The application performs automated website crawling, HTML parsing, semantic content extraction, information filtering, and AI-driven content generation to transform unstructured web data into high-quality marketing collateral. By leveraging OpenAI GPT or locally hosted Ollama models, the solution generates concise, context-aware, and business-oriented brochures that improve customer engagement, streamline marketing workflows, and reduce manual content creation.
+The application intelligently crawls websites, extracts relevant business information, performs semantic content analysis, and generates structured, high-quality brochures that help organizations present their products, services, and value proposition more effectively.
 
-🚀 Key Features
-End-to-End Generative AI workflow
-Intelligent Web Scraping and Website Crawling
-HTML Parsing using BeautifulSoup
-Semantic Content Extraction & Information Filtering
-AI-powered Brochure Generation using Large Language Models (LLMs)
-Advanced Prompt Engineering
-Automated Marketing Content Generation
-Context-Aware Business Summarization
-Modular and Scalable Python Architecture
-Local LLM Inference with Ollama
-API-based LLM Integration with OpenAI
-Reusable AI Content Generation Pipeline
-🛠 Tech Stack
-Programming Language
-Python 3.x
-AI & Large Language Models
-OpenAI GPT
-Ollama
-Prompt Engineering
-Generative AI
-Natural Language Processing (NLP)
-Web Scraping & Data Extraction
-BeautifulSoup4
-Requests
-HTML Parsing
+---
+
+## ✨ Features
+
+* 🌐 Intelligent Website Crawling & Web Scraping
+* 🤖 AI-powered Brochure Generation using LLMs
+* 🧠 Semantic Content Extraction & Analysis
+* ✍️ Prompt Engineering for High-Quality Content
+* 📄 Automated Marketing Brochure Generation
+* ⚡ Context-Aware Business Summarization
+* 🔄 Modular & Scalable AI Workflow
+* 💼 Client-Ready Professional Output
+
+---
+
+## 🛠️ Tech Stack
+
+| Category               | Technologies                 |
+| ---------------------- | ---------------------------- |
+| **Programming**        | Python 3                     |
+| **Generative AI**      | OpenAI GPT, Ollama           |
+| **Prompt Engineering** | Custom LLM Prompts           |
+| **Web Scraping**       | BeautifulSoup4, Requests     |
+| **Environment**        | Jupyter Notebook, Cursor IDE |
+| **Version Control**    | Git, GitHub                  |
+
+---
+
+## 📂 Workflow
+
+```text
+Company Website
+       │
+       ▼
 Website Crawling
+       │
+       ▼
+HTML Parsing (BeautifulSoup)
+       │
+       ▼
 Content Extraction
-Development Environment
-Jupyter Notebook
-VS Code / Cursor IDE
-Git
-GitHub
-Libraries
-openai
-ollama
-beautifulsoup4
-requests
-python-dotenv
-IPython
-Jupyter
-📂 Project Workflow
-Accepts a company website URL.
-Crawls and discovers relevant business pages.
-Extracts website content using BeautifulSoup.
-Performs semantic filtering and information extraction.
-Sends structured context to an LLM.
-Uses Prompt Engineering to generate a professional brochure.
-Produces a client-ready marketing brochure with key business insights.
+       │
+       ▼
+Semantic Analysis
+       │
+       ▼
+LLM Processing (OpenAI/Ollama)
+       │
+       ▼
+Professional Marketing Brochure
+```
+
+---
+
+## 🎯 Skills Demonstrated
+
+* Generative AI
+* Large Language Models (LLMs)
+* Prompt Engineering
+* Web Scraping
+* BeautifulSoup
+* Natural Language Processing (NLP)
+* Semantic Analysis
+* Information Extraction
+* Content Generation
+* API Integration
+* Python Development
+* Git & GitHub
+
+---
+
+## 💡 Business Impact
+
+* Automates brochure creation from company websites.
+* Reduces manual content generation effort.
+* Produces consistent, professional marketing material.
+* Improves customer engagement and marketing efficiency.
+* Demonstrates practical application of **Generative AI** in business automation.
+
+---
+
+## 📦 Installation
+
+```bash
+git clone <repository-url>
+cd AI-Brochure-Generator
+
+pip install -r requirements.txt
+```
+
+---
+
+## 🚀 Future Enhancements
+
+* Multi-language brochure generation
+* PDF & PowerPoint export
+* Retrieval-Augmented Generation (RAG)
+* Vector Database Integration
+* Company Branding & Theme Customization
+* Streamlit/Web Application Deployment
